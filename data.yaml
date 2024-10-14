@@ -1,4 +1,8 @@
-train: /kaggle/working/train/images  # Path to your training images
-val: /kaggle/working/train/images    # Path to your validation images
-nc: 1  # Number of classes (gates)
-names: ['gate']  # Class names
+path: ../datasets/your_dataset  # Adjust with the correct path to your dataset
+train: images/train              # Path to your training images
+val: images/val                  # Path to your validation images
+test:  # Optional, path to test data if you have any
+
+# Define the class names
+names:
+  0: gate  # For example, if you're detecting gates
